@@ -126,10 +126,6 @@ a:hover{
 
 
 #profile{
-  background-image: url(/asserts/img/ST2.png);
-  background-size: cover;
-  background-attachment: contain;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   gap: 5vw;
@@ -224,6 +220,13 @@ a:hover{
 }
 .btn_container{
   gap: 1rem;
+}
+
+/*Arrow down icons*/
+
+.arrow_icon{
+  width: rem;
+  background: darkgray;
 }
 
 /*About section styling*/
@@ -399,7 +402,7 @@ Screens with a width of 1200 pixel*/
     display: flex;
   }
   #hamburger{
-    display: block;
+    display: none;
   }
   #profile, .section_container{
     display: block;
@@ -440,7 +443,7 @@ Screens with a width of 1200 pixel*/
     height: 100vh;
     margin-bottom: 0;
   }
- article{
+  article{
     font-size: 1rem;
   }
   footer, nav{
@@ -483,27 +486,42 @@ Screens with a width of 1200 pixel*/
   }
 }
 /*Mobile Device Stying ||min-width not applicable when designing on mobile*/
-@media(max-width:650px){
+
+/*@media(max-width:650px){
+
+  body{
+    background: black;
+    color: whitesmoke;
+  }
   #desktop_nav{
     display: none;
   }
   #hamburger,.hamburger_icon{
     display: inline-block;
-    width:10%;
+    width:20px;
     height:20px;
   }
   #profile{
-     background: url("/asserts/img/ST2.png");
-     background-repeat:no-repeat ;
-     background-size: 100%;
-     height: 39.5vh;
-     margin-bottom: 0;
+    height: 39.5vh;
+    margin-bottom: 0;
   }
+  #Experience,.experience_details_container {
+    margin-left:10px;
+    width: 90.5vw;
+    height: auto;
+  }
+  .text_container{
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  
   .section_text_p,
-  .section_text_p1,.section_text_p2{
+  .section_text_p1,
+  .section_text_p2{
     font-size: 1rem;
     font-weight: 600;
   }
+  
   .socials_container{
     margin: 50px auto;
   }
@@ -518,10 +536,82 @@ Screens with a width of 1200 pixel*/
     font-size: 0.5rem;
     margin: 0.5px auto;
   }
-  .section,.section_container{
-    width: 90vw;
-    height: 100vh;
+  .arrow_icon{
+    display: none;
+  }
+ .about_containers,
+  .contact_info_upper_container,
+  .btn_container{
+    flex-wrap: wrap;
+  }
+  .contact_info_container{
+    margin: 0;
+  }
+  .contact_info_container p,
+  .nav_links li a{
+    font-size:1rem;
+  }
+  .experience_sub_title{
+    font-size: 1.5rem;
+  }
+  .logo{
+    font-size: 1.5rem;
+  }
+  .nav_links{
+    flex-direction: row;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}*/
+@media(max-width:600px){
+  #Contact,
+  footer{
+    height: 40vh;
+  }
+  #Profile{
+    height:83vh; 
+    margin:0;
+  }
+  article{
+    font-size: 1rem;
+  }
+  footer nav{
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about_containers,
+  .contact_info_upper_container,
+  .btn_container{
+    flex-wrap: wrap;
+  }
+  .contact_info_container p,
+  .nav_links li a{
+    font-size: 1rem;
+  }
+  .experience_sub_title{
+    font-size: 1.5rem;
+  }
+  .logo{
+    font-size: 1.5rem;
+  }
+  .nav_links{
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section_pic_container{
+    width: auto;
+    height: 46vh;
     justify-content: center;
   }
+  .section_text_p2{
+    font-size: 1.25rem;
+  }
+  .title{
+    font-size: 2rem;
+  }
+  .text_container{
+    text-align: justify;
+  }
   
-} 
+}
