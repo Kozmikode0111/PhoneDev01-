@@ -397,7 +397,9 @@ Screens with a width of 1200 pixel*/
   .about_containers{
     flex-wrap: wrap;
   }
-  
+  #Experience, .experience_details_container{
+    margin-top: 5rem;
+  }
 }
 
 @media(max-width: 1200px){
