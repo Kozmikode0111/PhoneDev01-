@@ -113,7 +113,7 @@ a:hover{
 .section{
   padding-top: 4vh;
   height: 96vh;
-  margin: 0 5rem;
+  margin: 2 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -129,7 +129,7 @@ a:hover{
   display: flex;
   justify-content: center;
   gap: 5vw;
-  height: 86.5vh;
+  height: 46.5vh;
   width: 100%;
 }
 .section_pic_container{
@@ -236,7 +236,7 @@ a:hover{
 }
 .about_containers{
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 7rem;
   margin-bottom: 2rem;
 }
 .about_details_containers{
