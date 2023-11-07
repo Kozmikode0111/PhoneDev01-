@@ -408,7 +408,7 @@ Screens with a width of 1200 pixel*/
     display: block;
   }
   #Experience, .experience_details_container{
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
   .arrow_icon{
     display: flex;
@@ -417,7 +417,7 @@ Screens with a width of 1200 pixel*/
     height: fit-content;
   }
   .section{
-    margin: 0, 5rem;
+    margin: 1, 5rem;
   }
   .section_pic_container{
     width: 105px;
@@ -425,7 +425,7 @@ Screens with a width of 1200 pixel*/
     margin: 0 auto;
   }
   .about_containers{
-    margin-top: 0;
+    margin-top: 1;
   }
 }
 @media(max-width: 750px){
