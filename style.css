@@ -267,9 +267,11 @@ a:hover{
   gap: 2rem;
   height: 50vh;
 }
+
 /*
 --Unspecified code to allocate--
 */
+
 .section_pic_container{
   height: 200px;
   width: 141px;
@@ -287,7 +289,7 @@ a:hover{
   color: floralwhite;
   font-weight: 600;
   font-size: 1.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 .experience_details_container{
   display: flex;
@@ -298,7 +300,7 @@ a:hover{
   display: flex;
   text-align: initial;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: space-around;
 }
 article{
@@ -395,6 +397,7 @@ Screens with a width of 1200 pixel*/
   .about_containers{
     flex-wrap: wrap;
   }
+  
 }
 
 @media(max-width: 1200px){
