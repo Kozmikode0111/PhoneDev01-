@@ -129,7 +129,7 @@ a:hover{
   display: flex;
   justify-content: center;
   gap: 5vw;
-  height: 26.5vh;
+  height: 86.5vh;
   width: 100%;
 }
 .section_pic_container{
@@ -207,7 +207,7 @@ a:hover{
 }
 .btn_color1,.btn_color2:hover{
   background: lightgray;
-  color:white;
+  color:transparent;
 }
 .btn_color1:hover{
   background:black;
