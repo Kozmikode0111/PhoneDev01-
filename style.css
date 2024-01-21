@@ -4,7 +4,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-image:url("/asserts/img/ST2.jpg");
+  background-image: url("../asserts/img/ST2.jpg");
   color: white;
 }
 .btn{
