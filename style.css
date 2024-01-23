@@ -4,7 +4,12 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("./asserts/img/ST2.png");
+  background-image: url("../img/ST2.png");
+  background-size: cover;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: auto;
   color: white;
 }
 .btn{
