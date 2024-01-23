@@ -4,7 +4,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("../img/ST2.png");
+  background: black;
   background-size: cover;
   background-position: 0% 100%;
   background-repeat: no-repeat;
