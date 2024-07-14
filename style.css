@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: url(/asserts/img/ST2.jpg) fixed no-repeat center/cover;
+  background-image: url(/asserts/img/ST2.jpg) fixed no-repeat center/cover;
   z-index: 0;
   color: white;
 }
