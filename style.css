@@ -5,9 +5,9 @@ html {
 }
 
 body {
-  background-image: url(/asserts/img/ST2.jpg) fixed no-repeat center/cover;
+  background-image: url(/asserts/img/ST2.jpg);
   z-index: 0;
-  color: white;
+  color: black;
 }
 
 .btn {
