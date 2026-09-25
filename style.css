@@ -5,9 +5,12 @@ html {
 }
 
 body {
-  background-image: url(/asserts/img/ST2.jpg);
+  background: url(/asserts/img/ST2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   z-index: 0;
-  color: black;
+  color: white;
 }
 
 .btn {
@@ -230,13 +233,13 @@ a:hover {
   justify-content: center;
   flex-direction: column;
 }
-
-.details_container {
+/* Styling the cards*/
+.details_container, .text_container {
   padding: 1.5rem;
   flex: 1;
-  background: gray;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 2rem;
-  border: 0.1rem solid gray;
+  box-shadow: 0 0 10px;
   text-align: center;
 }
 
@@ -346,35 +349,145 @@ footer p {
 /* Responsive CSS */
 
 /* Mobile styles */
-@media (max-width: 768px) {
+/*@media (max-width: 768px){}*/
+/* ===========================
+   MOBILE RESPONSIVE STYLES
+   =========================== */
+@media screen and (max-width: 768px) {
+*{
+  margin: 0;
+  padding: 0;
+  h3: 2rem;
+}
+  /* Hide desktop nav */
   #desktop_nav {
     display: none;
   }
-  #hamburger{
-  background: black;
-  display: flex;
-  position: absolute;
-  right: 10;
-  top: 0.5;
-}
 
-  /*#hamburger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: transparent;
-    color: white;
-    padding: 1rem;
-  }*/
-
-  .Menu_links {
-    display: block;
-    flex-direction: column;
-    align-items: center;
+  section {
+    margin: 0 1rem;
+    padding-top: 2rem;
+    height: auto;
+  }
+/*Nteboheng Monamoli*/
+  .title {
+    font-size: 2rem;
+    text-align: center;
   }
 
-  .Menu_links li {
-    margin: 1rem 0;
+  /* Profile */
+  #profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /*Gap between profile and buttons*/
+    gap: 0.25px;
+    height: 72vh;
+  }
+/*Profile picture*/
+  .section_pic_container {
+    width: 250px;
+    height: 300px;
+    margin-left: -105px;
+  }
+
+  .profile_pic {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .section_profile_text {
+    width: 100%;
+  }
+/*Frontend developer text*/
+  .section_text_p2 {
+    font-size: 1.2rem;
+  }
+
+  .btn_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+/*Whatsapp,Github and YT*/
+  .btn {
+    width: 90%;
+    width: 260px;
+  }
+
+  .socials_container {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  /* About */
+  .about_details_container,
+  .about_containers {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .details_container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .text_container{
+    text-align: center;
+    line-height: 1.7;
+  }
+
+  /* Experience */
+  .article_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Portfolio */
+
+  .project_img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+
+  .project_button {
+    width: 100%;
+  }
+
+  /* Contact */
+  .contact_info_upper_container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact_info_container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Footer */
+  footer .nav_links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .arrow_icon {
+    display: none;
   }
 }
 
