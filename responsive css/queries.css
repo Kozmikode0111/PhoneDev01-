@@ -9,4 +9,7 @@
   .section_pic_container{
     display: none;
   }
+  body {
+  background: url(/asserts/img/ST2.jpg)no-repeat cover/center;
+  }
 }
