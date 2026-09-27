@@ -490,13 +490,3 @@ footer p {
     display: none;
   }
 }
-
-/* Desktop styles*/
-@media screen and (min-width: 599px) {
-  .hamburger_icon {
-    display: flex;
-  }
-  .nav_links {
-    display: flex;
-  }
-}

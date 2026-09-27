@@ -1,0 +1,12 @@
+/* Desktop styles*/
+@media screen and (min-width: 400px) {
+  .hamburger_icon, .nav_links {
+    display: flex;
+  }
+  footer,.nav_links{
+    display: none;
+  }
+  .section_pic_container{
+    display: none;
+  }
+}
